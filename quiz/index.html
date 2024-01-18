@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link 
+    rel="stylesheet" 
+    href="style.css"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+    >
+</head>
+<body>
+    <div id="container">
+        <nav id="nav-bar">
+            <div id="logo">Welcome to my QUIZ</div>
+            <div id="nav-bar-menu">
+                <ul>
+                    <li><a href="#">1st item</a></li>
+                    <li><a href="#">2nd item</a></li>
+                    <li><a href="#">3rd item</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="content">
+            <div class="question" data-disabled="true">Question number: </div>
+            <span class="question-content" data-disabled="true"></span>
+                <div class="answers" data-disabled="true">
+                    <div id="answer-a"></div>
+                    <div id="answer-b"></div>
+                    <div id="answer-c"></div>
+                    <div id="answer-d"></div>
+                </div>
+            <button onclick="start()" id="startBtn">START THE QUIZ</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
